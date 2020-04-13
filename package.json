@@ -1,0 +1,30 @@
+{
+  "name": "lmr",
+  "version": "0.0.0",
+  "description": "Live record music signal server",
+  "keywords": [
+    "record",
+    "music",
+    "offline"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jameskyburz/live-music-session-signal-server.git"
+  },
+  "author": {
+    "name": "James Kyburz",
+    "email": "james.kyburz@gmail.com"
+  },
+  "scripts": {
+    "start": "PORT=${PORT:-5001} node src/signal-server.js"
+  },
+  "files": [
+    "src"
+  ],
+  "private": true,
+  "license": "Apache-2.0",
+  "dependencies": {
+    "ws": "7.2.3"
+  },
+  "devDependencies": {}
+}
